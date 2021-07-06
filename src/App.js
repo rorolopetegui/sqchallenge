@@ -1,6 +1,5 @@
-import { Table } from './components';
+import { AddTodo, TodoList, Modal } from './components';
 import logo from './logo.png';
-import MockData from './utils/MockData';
 import './App.css';
 
 
@@ -11,8 +10,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         Todo List
       </header>
-      <Table data={MockData} headers={['title', 'description', 'isDone']} objectName="Todo" />
-      
+      <AddTodo />
+      <TodoList />
+      <Modal />
     </div>
   );
 }

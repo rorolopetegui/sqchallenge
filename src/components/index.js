@@ -1,7 +1,9 @@
-import Table from './Table';
-import Todo from './Todo'
+import TodoList from './TodoList';
+import AddTodo from './AddTodo';
+import Modal from './Modal';
 
 export{
-	Table,
-	Todo
+	TodoList,
+	AddTodo,
+	Modal
 }
